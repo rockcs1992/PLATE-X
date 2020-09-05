@@ -1,0 +1,56 @@
+
+.help{overflow:hidden;margin:20px auto 75px;}
+.help_l{width: 195px; overflow:hidden; margin:5px 0 0 5px; float:left; border:1px solid #000; -webkit-box-shadow:0 0 0 5px #ccc ;
+   -moz-box-shadow:0 0  5px #ccc ;
+    -ms-box-shadow:0 0  5px #ccc ;
+     -o-box-shadow:0 0  5px #ccc ;
+        box-shadow:0 0  5px #ccc ;}
+.help_l ul{overflow:hidden;}
+.help_l li{height: 40px;line-height: 40px; text-align: center; border-top:1px solid #e4e4e4; font-size: 14px; position: relative;}
+.help_l .li_nav{cursor:pointer;}
+.help_l li span{width: 4px; height: 10px;background: #ccc; position: absolute; right:13px; top:15px;}
+.help_l .left_nav_cur{background: #f2f2f2;}
+.help_l .left_nav_cur span{background: #f13636;}
+.help_l .left_nav_1{background: #777777; border:0 none;color:#fff;font-size:16px;}
+.help_r{width: 776px;height:800px; overflow:hidden;margin:5px 5px 0 0; float:right; padding:13px 20px;-webkit-box-shadow:0 0 0 5px #ccc ;
+   -moz-box-shadow:0 0  5px #ccc ;
+    -ms-box-shadow:0 0  5px #ccc ;
+     -o-box-shadow:0 0  5px #ccc ;
+        box-shadow:0 0  5px #ccc ;}
+.help_r h2{font-size: 30px;}
+/*.help_r p{margin-top:25px; font-size: 14px; line-height: 2em;}*/
+.help_r h3,.help_r h4,.help_r p{font-size: 14px;}
+.help_r h3{margin-top: 25px;}
+.help_r h4{margin-top: 5px;margin-left: 35px;}
+.help_p1{text-indent: 70px;line-height: 24px;}
+.help_p2{text-indent: 35px;line-height: 24px;}
+.help_r .help_top{margin-top: 28px;}
+.help_r .help_btm{margin-bottom: 30px;}
+
+
+.nav_bg{background: #fafafa;}
+.list_bg{background: #f1f1f1;    min-height: 697px;}
+.leftmenu{
+ width:84px;
+ position:fixed;
+ left:14%;
+ top:200px;
+ display:none;
+ z-index:999;   
+ 
+}
+.leftmenu ul li{height: 80px; margin-bottom: 20px; box-shadow:1px 1px 2px #666; background: #f1f1f1;}
+.leftmenu ul li p{text-align: center;}
+.leftmenu ul li img{margin:0 auto;}
+.modal {
+  display: none;
+  background: #eee;
+  overflow: auto;
+  z-index: 1001;
+  position: fixed;
+  top:50%;left:50%;
+  width: 300px;
+  margin-top:-150px;
+  margin-left:-150px;
+}
+.modal img{margin:0 auto;}

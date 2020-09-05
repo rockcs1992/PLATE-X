@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7E4F3EC-AFDE-445F-9B39-D7E807B6B385}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutMenuService.cs" />
+    <Compile Include="ActiveInfoService.cs" />
+    <Compile Include="AddPriceService.cs" />
+    <Compile Include="AdminUserService.cs" />
+    <Compile Include="AnswerInfoService.cs" />
+    <Compile Include="AreaInfoService.cs" />
+    <Compile Include="BaseConfigService.cs" />
+    <Compile Include="BindInfoService.cs" />
+    <Compile Include="CartTempService.cs" />
+    <Compile Include="CommentService.cs" />
+    <Compile Include="CommercialsService.cs" />
+    <Compile Include="Common_LinksService.cs" />
+    <Compile Include="Common_OnlineMessageService.cs" />
+    <Compile Include="Common_ReplyService.cs" />
+    <Compile Include="ContractInfoService.cs" />
+    <Compile Include="DBHelperSQL.cs" />
+    <Compile Include="DepartmentService.cs" />
+    <Compile Include="EmailCodeService.cs" />
+    <Compile Include="FamouseAddressService.cs" />
+    <Compile Include="FriendsInfoService.cs" />
+    <Compile Include="GongGaoInfoService.cs" />
+    <Compile Include="GuangGaoService.cs" />
+    <Compile Include="IndexProductService.cs" />
+    <Compile Include="IndexUserService.cs" />
+    <Compile Include="InviteService.cs" />
+    <Compile Include="KeyWordInfoService.cs" />
+    <Compile Include="LinksService.cs" />
+    <Compile Include="MateriaService.cs" />
+    <Compile Include="MessageCodeService.cs" />
+    <Compile Include="MessageService.cs" />
+    <Compile Include="MyViewsHistoryService.cs" />
+    <Compile Include="NavInfoService.cs" />
+    <Compile Include="NewsService.cs" />
+    <Compile Include="NewsTypeService.cs" />
+    <Compile Include="OALevelService.cs" />
+    <Compile Include="OnLinePayStatusService.cs" />
+    <Compile Include="OrderAddressService.cs" />
+    <Compile Include="OrderDetailService.cs" />
+    <Compile Include="OrderService.cs" />
+    <Compile Include="ProductGoodsService.cs" />
+    <Compile Include="ProductImgMobileService.cs" />
+    <Compile Include="ProductImgService.cs" />
+    <Compile Include="ProductPKService.cs" />
+    <Compile Include="ProductPropertyService.cs" />
+    <Compile Include="ProductService.cs" />
+    <Compile Include="ProductTypeService.cs" />
+    <Compile Include="ProductViewsService.cs" />
+    <Compile Include="Product_ProperValueService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProperTypeService.cs" />
+    <Compile Include="ProperValueService.cs" />
+    <Compile Include="PvService.cs" />
+    <Compile Include="QuestionInfoService.cs" />
+    <Compile Include="ReplyService.cs" />
+    <Compile Include="ResumeService.cs" />
+    <Compile Include="SearchKeyWordService.cs" />
+    <Compile Include="ServerOrderService.cs" />
+    <Compile Include="ShoperInfoService.cs" />
+    <Compile Include="ShoperService.cs" />
+    <Compile Include="Shoper_UserService.cs" />
+    <Compile Include="StationInfoService.cs" />
+    <Compile Include="SubwayInfoService.cs" />
+    <Compile Include="SysPrivilegesService.cs" />
+    <Compile Include="SysRoleService.cs" />
+    <Compile Include="TopNewsService.cs" />
+    <Compile Include="TypeInfoService.cs" />
+    <Compile Include="UserAccountService.cs" />
+    <Compile Include="UserAddressService.cs" />
+    <Compile Include="UserBaseService.cs" />
+    <Compile Include="UserBussStateService.cs" />
+    <Compile Include="UserFavoriteInfoService.cs" />
+    <Compile Include="UserImgInfoService.cs" />
+    <Compile Include="UserImgService.cs" />
+    <Compile Include="UserInfoService.cs" />
+    <Compile Include="UserMemberInfoService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{AC9960DA-27CD-46C6-B686-3311DFD444E5}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
